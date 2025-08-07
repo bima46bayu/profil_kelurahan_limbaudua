@@ -35,8 +35,18 @@ export default async function PotensiPage() {
         <p className="mt-4 max-w-3xl mx-auto text-gray-600 leading-relaxed">
           Kelurahan Limba U Dua menyimpan beragam potensi yang menjadi kekuatan utama dalam pembangunan...
         </p>
+        <div className="flex flex-col md:flex-row items-center justify-center gap-4 mt-8">
+          {/* Tombol Primary */}
+          <a
+            href="https://arcg.is/OqDb90"
+            // target="_blank"
+            // rel="noopener noreferrer"
+            className="bg-[#947700] text-white font-semibold px-6 py-3 rounded-full shadow-lg hover:bg-yellow-500 transition text-center w-full md:w-[250px]"
+          >
+            Jelajahi UMKM
+          </a>
+        </div>
       </div>
-
       <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {potensiDesa?.map((item) => (
           <PotensiCard key={item.slug} potensi={item} />

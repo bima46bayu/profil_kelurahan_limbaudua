@@ -23,8 +23,8 @@ export default function Hero() {
           {/* Tombol Primary */}
           <a
             href="https://arcg.is/1yHTya0"
-            target="_blank"
-            rel="noopener noreferrer"
+            // target="_blank"
+            // rel="noopener noreferrer"
             className="bg-[#947700] text-white font-semibold px-6 py-3 rounded-full shadow-lg hover:bg-yellow-500 transition text-center w-full md:w-[250px]"
           >
             Jelajahi Pariwisata
@@ -33,8 +33,8 @@ export default function Hero() {
           {/* Tombol Secondary */}
           <a
             href="https://stuntrack-limbaudua.streamlit.app/"
-            target="_blank"
-            rel="noopener noreferrer"
+            // target="_blank"
+            // rel="noopener noreferrer"
             className="border-2 border-[#ffffff] text-[#ffffff] font-semibold px-6 py-3 rounded-full shadow-lg hover:bg-gray-500 transition text-center w-full md:w-[250px]"
           >
             Cek Kondisi Stunting
